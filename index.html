@@ -10,14 +10,14 @@
 <body>
     <!-- header -->
    <div class="header">
-    <div class="logo-header">
+    <div class="logo">
         <h1>NINJA KEN</h1>
     </div>
     <div class="list-header">
         <ul>
-            <li>Tentang Saya</li>
-            <li>Proyek Contoh</li>
-            <li>Hubungi Saya</li>
+            <li><a href="#about">Tentang Saya</a></li><br>
+            <li><a href="#project">Proyek Contoh</a></li><br>
+            <li><a href="#contact">Hubungi Saya</a></li>
         </ul>
     </div>
    </div>
@@ -32,7 +32,7 @@
   <!-- end content -->
 
   <!-- About -->
-  <div class="about">
+  <div class="about" id="about">
     <h1>Tentang Saya</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam repellendus assumenda praesentium odit iste doloremque culpa eaque, impedit laboriosam nisi aut, iure iusto ducimus est saepe et ipsum dignissimos.
     Laboriosam adipisci animi sunt numquam expedita. At officiis, accusamus dicta quae quidem provident neque ab nam, reiciendis omnis expedita, et velit. Facilis saepe sapiente reprehenderit animi molestias ducimus quis consequatur.
@@ -41,11 +41,11 @@
   <!-- end about -->
 
   <!-- project -->
-  <div class="project">
+  <div class="project" id="project">
     <h1>Proyek Contoh</h1>
     <div class="project-icon">
         <div class="project-image">
-            <img src="image/1.png">
+            <img src="image/1.png" class="image1">
             <p>image 1</p>
         </div>
     </div>
@@ -62,6 +62,31 @@
             <img src="image/3.png">
             <p>image 3</p>
         </div>
+    </div>
+  </div>
+
+  <!-- end project -->
+
+  <!-- contact -->
+  <div class="contact" id="contact">
+    <h1>Hubungi Saya</h1>
+    <div class="contact-btn">       
+        <input type="email" placeholder=" Email (Diperlukan)">   
+        <textarea name="" id="" placeholder=" Message (Diperlukan)"></textarea>
+        <input type="submit" value="Kirim" class="btn">
+    </div>
+  </div>
+  <!-- end contact -->
+  <div class="footer">
+    <div class="logo">
+        <h1>NINJA KEN</h1>
+    </div>
+    <div class="footer-list">
+        <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#project">Proyek Contoh</a></li>
+            <li><a href="#contact">Hubungi Saya</a></li>
+        </ul>
     </div>
   </div>
 </body>
