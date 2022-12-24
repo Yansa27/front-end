@@ -59,6 +59,10 @@
     height: 800px;
   }
 
+  .container-project h1 {
+    text-align: center;
+  }
+
   .project {
     flex-direction: column;
     margin-top: 20px;
