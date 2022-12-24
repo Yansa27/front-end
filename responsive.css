@@ -34,6 +34,7 @@
     /* project */
     .project {
         height: 850px;
+        text-align: center;
     }
 
     .project-icon {
@@ -44,7 +45,9 @@
 
     .project-image img {
         height: 150px;
-        padding: 40px 110px 30px 160px;
+       padding: auto;
+       padding-top: 50px;
+        margin: auto;
     }
 
     
