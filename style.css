@@ -14,9 +14,18 @@ li a {
 
 .header {
     background-color: black;
-    color: white;
     height: 90px;
+
 }
+
+.menu-icon {
+    display: none;
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 40px;
+    padding: 21px 0;
+    
+  }
 
 .logo {
     font-weight: bold;
@@ -24,6 +33,7 @@ li a {
 }
 
 .logo h1 {
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
     letter-spacing: 5px;
@@ -31,13 +41,13 @@ li a {
 }
 
 .list-header {
- display: flex;
+ display: block;
  justify-content: flex-start;
- 
  
 }
 
 .list-header li {
+    color: white;
     list-style: none;
     float: left;
     padding: 15px 20px;
