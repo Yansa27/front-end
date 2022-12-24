@@ -2,6 +2,10 @@
 
 /* mobile */
 @media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
   /* content */
   .content {
     height: 350px;
