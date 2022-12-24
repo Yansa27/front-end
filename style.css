@@ -1,64 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 /* header */
 
 .header {
-    background-color: black;
-    height: 90px;
-    position: fixed;
-    width: 100%;
-
+  background-color: black;
+  height: 90px;
+  position: fixed;
+  width: 100%;
 }
 
 .menu-icon {
-    display: none;
-    color: rgb(0, 0, 0);
-    float: right;
-    font-size: 40px;
-    padding: 21px 0;
-    
-  }
+  display: none;
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 40px;
+  padding: 21px 0;
+}
 
 .logo {
-    font-weight: bold;
-    float: left;
+  font-weight: bold;
+  float: left;
 }
 
 .logo h1 {
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 5px;
-    margin-top: 23px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 5px;
+  margin-top: 23px;
 }
 
 .list-header {
- display: block;
- justify-content: flex-start;
- 
+  display: block;
+  justify-content: flex-start;
 }
 
 .list-header li {
-    color: white;
-    list-style: none;
-    float: left;
-    padding: 15px 20px;
-    margin-top: 20px;
-    opacity: 0.7;
+  color: white;
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+  margin-top: 20px;
+  opacity: 0.7;
 }
 
 .list-header li:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* end header */
@@ -66,74 +63,78 @@ li a {
 /* content */
 
 .content {
-    height: 500px;
-    text-align: center;
-    padding-top: 90px;
+  height: 500px;
+  text-align: center;
+  padding-top: 90px;
 }
 
 .content h1 {
-   padding-bottom: 10px;
-   font-size: 150px;
-   letter-spacing: 5px;
+  padding-bottom: 10px;
+  font-size: 150px;
+  letter-spacing: 5px;
 }
 
 .content p {
-   font-size: 40px;
-   font-family: Arial, Helvetica, sans-serif;
-   opacity: 0.7;
-   letter-spacing: 3px;
-    
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+  letter-spacing: 3px;
 }
 
 .content span {
-    color: yellow;
+  color: yellow;
 }
 .content img {
-    height: 200px;
+  height: 200px;
 }
 
 /* end content */
 
 /* about */
 .about {
-    background-color: rgb(233, 233, 233);
-    height: 300px;
-    text-align: center;
+  background-color: rgb(233, 233, 233);
+  height: 300px;
+  text-align: center;
 }
 
 .about h1 {
-    padding: 60px 0 30px 0;
+  padding: 60px 0 30px 0;
 }
 
 .about p {
-    display: flex;
-    align-content: center;
-    padding: 10px 0;
-    opacity: 0.7; 
+  display: flex;
+  align-content: center;
+  padding: 10px 0;
+  opacity: 0.7;
 }
 /* end about */
 
 /* project */
-.project {
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    padding-top : 50px;
-    
-}
-.project-icon{
-   float: left;
-}
-.project-image {
-    align-items: center;
-}
-.project-image img {
-  height: 200px;
-  padding: 90px 110px 30px 110px;
+.container-project {
+  height: 500px;
+  width: 100%;
 }
 
-.image1 {
-    padding-left: 200px;
+.container-project h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project p {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.project-image img {
+  height: 200px;
 }
 
 /* end project */
@@ -141,57 +142,57 @@ li a {
 /* contact */
 
 .contact {
-    height: 400px;
-    background-color: rgb(230, 228, 228);
-    text-align: center;
-    padding-top: 40px;
-   
+  height: 400px;
+  background-color: rgb(230, 228, 228);
+  text-align: center;
+  padding-top: 40px;
 }
 
 .contact-btn {
-    height: 20px;
-   flex-direction: column;
+  height: 20px;
+  flex-direction: column;
 }
 
-input , textarea {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    justify-content: space-evenly;
-    padding: 20px 0 20px 0;
-    margin-top: 20px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+input,
+textarea {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 textarea {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .btn {
-    width: 400px;
-    background-color: rgb(235, 235, 158);
-    height: 50px;
-    opacity: 0.7;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 7px black;
+  width: 400px;
+  background-color: rgb(235, 235, 158);
+  height: 50px;
+  opacity: 0.7;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 7px black;
 }
 
 .btn:active {
-   box-shadow: none;
-   position : relative;
-   top: 7px;
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
 
 /* end contact */
@@ -199,28 +200,23 @@ textarea {
 /* footer  */
 
 .footer {
-    height: 200px;
-    background-color: rgb(167, 166, 166);
-    color: white;
+  height: 200px;
+  background-color: rgb(167, 166, 166);
+  color: white;
 }
 .footer-list ul {
-    padding-top: 50px;
-    
+  padding-top: 50px;
 }
 
 .footer-list li:hover {
-    opacity: 1;
+  opacity: 1;
 }
 .footer-list li {
-    
-    opacity: 0.7;
-    list-style: none;
-    padding: 10px 20px 30px 0;
+  opacity: 0.7;
+  list-style: none;
+  padding: 10px 20px 30px 0;
 }
 
 .footer-list a {
-    
-    float: right;
-   
-    
+  float: right;
 }
